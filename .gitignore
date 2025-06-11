@@ -2,9 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/zmk-config-scyboard/copilot-chat/0f01ed52/sessions
-/.vs/zmk-config-scyboard/FileContentIndex/c4325aec-28d2-4534-a709-acd38c7182da.vsidx
-/.vs/zmk-config-scyboard/FileContentIndex/e84d9cdc-a223-44a9-b7da-6a3f1ba1897f.vsidx
-
-git rm --cached copilot
-git rm --cached filecontentindex
+/.vs/zmk-config-scyboard
