@@ -1,0 +1,42 @@
+/ {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "scyboard";
+
+        kscan = <&kscan0>;
+        transform = <&default_transform>;
+
+        
+        keys
+           // Row 0 (top)        w    h      x        y  rot rx ry 
+         = <&key_physical_attrs 19   19  50.00  -100.00    0  0  0   // outer
+         , <&key_physical_attrs 19   19  69.00  -98.10     0  0  0   // pinky (0.1*19 stagger)
+         , <&key_physical_attrs 19   19  88.00  -87.46     0  0  0   // ring (0.66*19 stagger)
+         , <&key_physical_attrs 19   19 107.00  -95.25     0  0  0   // middle (0.25*19 stagger)
+         , <&key_physical_attrs 19   19 126.00  -104.75    0  0  0   // index (-0.25*19 stagger)
+         , <&key_physical_attrs 19   19 145.00  -102.85    0  0  0   // inner (-0.15*19 stagger)
+                                                                 
+           // Row 1 (home)       w    h      x        y  rot rx ry                                
+         , <&key_physical_attrs 19   19  50.00  -81.00     0  0  0   // outer
+         , <&key_physical_attrs 19   19  69.00  -79.10     0  0  0   // pinky
+         , <&key_physical_attrs 19   19  88.00  -68.46     0  0  0   // ring
+         , <&key_physical_attrs 19   19 107.00  -76.25     0  0  0   // middle
+         , <&key_physical_attrs 19   19 126.00  -85.75     0  0  0   // index
+         , <&key_physical_attrs 19   19 145.00  -83.85     0  0  0   // inner
+                                                                 
+           // Row 2 (bottom)     w    h      x        y  rot rx ry                                
+         , <&key_physical_attrs 19   19  50.00  -62.00     0  0  0   // outer
+         , <&key_physical_attrs 19   19  69.00  -60.10     0  0  0   // pinky
+         , <&key_physical_attrs 19   19  88.00  -49.46     0  0  0   // ring
+         , <&key_physical_attrs 19   19 107.00  -57.25     0  0  0   // middle
+         , <&key_physical_attrs 19   19 126.00  -66.75     0  0  0   // index
+         , <&key_physical_attrs 19   19 145.00  -64.85     0  0  0   // inner
+          
+           // Row 3 (cluster)    w    h      x        y  rot rx ry
+         , <&key_physical_attrs 19   19  88.00  -68.75     0  0  0   // thumb_tuck (shift: [-0.5*19, -1*19])
+         , <&key_physical_attrs 19   19 107.02  -78.18    -15 0  0  // thumb_layer (shift: [-0.42*19, -1.22*19])
+         , <&key_physical_attrs 28.5 19 120.30  -91.60   -117 0  0 // thumb_space (width: 1.5*19, shift: [-0.3*19, -1.4*19])
+         , <&key_physical_attrs 28.5 19 137.40 -104.00   -124 0  0 // thumb_reach (width: 1.5*19, shift: [-0.4*19, -2*19])
+         ;
+    };
+};
