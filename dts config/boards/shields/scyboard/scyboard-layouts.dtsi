@@ -10,31 +10,24 @@
 
         keys = 
 <
-            // Row 0 (top)         w     h   x     y   rot rx ry 
-            &key_physical_attrs 100 100  50  (-100)   0 0 0   // outer
-            &key_physical_attrs 100 100  69  (-98)    0 0 0   // pinky
-            &key_physical_attrs 100 100  88  (-87)    0 0 0   // ring
-            &key_physical_attrs 100 100 107  (-95)    0 0 0   // middle
-            &key_physical_attrs 100 100 126 (-104)    0 0 0   // index
-            &key_physical_attrs 100 100 145 (-102)    0 0 0   // inner
-        
-            // Row 1 (home)
-            &key_physical_attrs 100 100  50  (-81)    0 0 0
-            &key_physical_attrs 100 100  69  (-79)    0 0 0
-            &key_physical_attrs 100 100  88  (-68)    0 0 0
-            &key_physical_attrs 100 100 107  (-76)    0 0 0
-            &key_physical_attrs 100 100 126  (-85)    0 0 0
-            &key_physical_attrs 100 100 145  (-83)    0 0 0
-        
-            // Row 2 (bottom)
-            &key_physical_attrs 100 100  50  (-62)    0 0 0
-            &key_physical_attrs 100 100  69  (-60)    0 0 0
-            &key_physical_attrs 100 100  88  (-49)    0 0 0
-            &key_physical_attrs 100 100 107  (-57)    0 0 0
-            &key_physical_attrs 100 100 126  (-66)    0 0 0
-            &key_physical_attrs 100 100 145  (-64)    0 0 0
-        
-            // Row 3 (cluster)
+            &key_physical_attrs 100 100  50  (-100)     0 0 0
+            &key_physical_attrs 100 100  69  (-98)      0 0 0
+            &key_physical_attrs 100 100  88  (-87)      0 0 0
+            &key_physical_attrs 100 100 107  (-95)      0 0 0
+            &key_physical_attrs 100 100 126 (-104)      0 0 0
+            &key_physical_attrs 100 100 145 (-102)      0 0 0
+            &key_physical_attrs 100 100  50  (-81)      0 0 0
+            &key_physical_attrs 100 100  69  (-79)      0 0 0
+            &key_physical_attrs 100 100  88  (-68)      0 0 0
+            &key_physical_attrs 100 100 107  (-76)      0 0 0
+            &key_physical_attrs 100 100 126  (-85)      0 0 0
+            &key_physical_attrs 100 100 145  (-83)      0 0 0
+            &key_physical_attrs 100 100  50  (-62)      0 0 0
+            &key_physical_attrs 100 100  69  (-60)      0 0 0
+            &key_physical_attrs 100 100  88  (-49)      0 0 0
+            &key_physical_attrs 100 100 107  (-57)      0 0 0
+            &key_physical_attrs 100 100 126  (-66)      0 0 0
+            &key_physical_attrs 100 100 145  (-64)      0 0 0
             &key_physical_attrs 100 100  88  (-68)      0 0 0
             &key_physical_attrs 100 100 107  (-78)  (-15) 0 0
             &key_physical_attrs 100 100 120  (-91) (-117) 0 0
