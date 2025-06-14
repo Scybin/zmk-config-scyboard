@@ -1,4 +1,4 @@
-#include "scybin.dtsi"
+#include "scyboard.dtsi"
 
 &physical_layout0 {
     kscan = <&kscan0>;
