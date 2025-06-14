@@ -9,10 +9,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-                &KP TAB   &KP Q &KP W  &KP E    &KP R    &KP T                                           &KP Y    &KP U    &KP I      &KP O   &KP P    &KP BSPC
-                &KP LCTRL &KP A &KP S  &KP D    &KP F    &KP G                                           &KP H    &KP J    &KP K      &KP L   &KP SEMI &KP APOS
-                &KP LSHFT &KP Z &KP X  &KP C    &KP V    &KP B                                           &KP N    &KP M    &KP COMMA  &KP DOT &KP FSLH &KP BSLH
-                                                &KP LGUI &KP LALT &KP SPACE &KP PIPE &KP ENTER &KP BSPC  &KP RALT &KP RGUI
+                &kp TAB   &kp Q &kp W  &kp E    &kp R    &kp T                                           &kp Y    &kp U    &kp I      &kp O   &kp P    &kp BSPC
+                &kp LCTRL &kp A &kp S  &kp D    &kp F    &kp G                                           &kp H    &kp J    &kp K      &kp L   &kp SEMI &kp APOS
+                &kp LSHFT &kp Z &kp X  &kp C    &kp V    &kp B                                           &kp N    &kp M    &kp COMMA  &kp DOT &kp FSLH &kp BSLH
+                                                &kp LGUI &kp LALT &kp SPACE &kp PIPE &kp ENTER &kp BSPC  &kp RALT &kp RGUI
             >;
         };
     };
