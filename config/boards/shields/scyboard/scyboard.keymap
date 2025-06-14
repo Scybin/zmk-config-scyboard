@@ -7,6 +7,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            display-name = "Default Layer";
             bindings = <
                 &KP TAB   &KP Q &KP W  &KP E    &KP R    &KP T                                           &KP Y    &KP U    &KP I      &KP O   &KP P    &KP BSPC
                 &KP LCTRL &KP A &KP S  &KP D    &KP F    &KP G                                           &KP H    &KP J    &KP K      &KP L   &KP SEMI &KP APOS
