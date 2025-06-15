@@ -1,8 +1,8 @@
-key_physical_attrs: key_physical_attrs {
-    #phandle-cells = <7>;
-};
+/ {
+    key_physical_attrs: key_physical_attrs {
+        #phandle-cells = <7>;
+    };
 
- / {
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "scyboard";
@@ -10,7 +10,6 @@ key_physical_attrs: key_physical_attrs {
         kscan = <&kscan0>;
         transform = <&default_transform>;
 
-        // Each key: <width height x y rotation rx ry>
         keys =
             <&key_physical_attrs 100 100  50 100 0 0 0>
           , <&key_physical_attrs 100 100  69  98 0 0 0>
