@@ -1,10 +1,6 @@
 #include <physical_layouts.dtsi>
 
  / {
-    key_physical_attrs: key_physical_attrs {
-        #phandle-cells = <7>;
-    };
-
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "scyboard";
