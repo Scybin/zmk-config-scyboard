@@ -1,1 +1,2 @@
+#include "boards/shields/scyboard/scyboard-layouts.dtsi"
 #include "boards/shields/scyboard/scyboard.keymap"
