@@ -1,1 +1,1 @@
-#include <boards/shields/scyboard/scyboard.keymap>
+#include <config/boards/shields/scyboard/scyboard.keymap>
