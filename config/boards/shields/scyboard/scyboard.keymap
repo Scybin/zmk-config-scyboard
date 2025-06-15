@@ -5,6 +5,7 @@
 / {
     keymap {
         compatible = "zmk,keymap";
+        layout = <&physical_layout0>;
 
         default_layer {
             display-name = "Base";
