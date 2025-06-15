@@ -1,10 +1,10 @@
-# ⌨️ ZMK Config for Scyboard
+# 🧑‍💻 ZMK Configuration for scyboard
 
-This repository contains the ZMK (Zephyr Mechanical Keyboard) configuration for the Scyboard keyboard. It includes keymaps, macros, and custom behaviors tailored for an ergonomic and efficient typing experience.
+This repository contains the ZMK (Zephyr Mechanical Keyboard) configuration for the scyboard keyboard. It includes keymaps, macros, and custom behaviors tailored for an ergonomic and efficient typing experience.
 
-## 🔩 Hardware Repository
+## ⌨️ scyboard Repository
 
-Find the Scyboard hardware files and details here: [Scyboard Hardware Repository](https://github.com/Scybin/scyboard)
+Find the Scyboard hardware files and details here: [scyboard Repository](https://github.com/Scybin/scyboard)
 
 ## 🗺️ Keymap Editor Compatibility
 
