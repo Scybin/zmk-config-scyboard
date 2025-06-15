@@ -6,4 +6,3 @@ layout {
     rows = <4>;
     columns = <12>;
 };
-#include "boards/shields/scyboard/scyboard.keymap"
