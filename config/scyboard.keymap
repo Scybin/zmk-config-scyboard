@@ -1,2 +1,9 @@
-#include "boards/shields/scyboard/scyboard-layouts.dtsi"
+#include "boards/shields/scyboard/scyboard.keymap"
+
+layout {
+    compatible = "zmk,keyboard-layout";
+    display-name = "Manual Scyboard Layout";    
+    rows = <4>;
+    columns = <12>;
+};
 #include "boards/shields/scyboard/scyboard.keymap"
