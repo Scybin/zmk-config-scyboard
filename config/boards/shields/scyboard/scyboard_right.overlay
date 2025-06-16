@@ -1,17 +1,10 @@
 #include "scyboard.dtsi"
 
-&physical_layout0 {
-    kscan = <&kscan0>;
-    transform = <&default_transform>;
-};
-
 &default_transform {
     col-offset = <6>;
 }
 
 &kscan0 {
-    diode-direction = "col2row";
-
         col-gpios 
             = <&pro_micro 14 GPIO_ACTIVE_HIGH>  // COL 0 (outer)
             , <&pro_micro 15 GPIO_ACTIVE_HIGH>  // COL 1 (pinky)
