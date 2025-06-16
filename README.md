@@ -2,9 +2,14 @@
 
 This repository contains the ZMK (Zephyr Mechanical Keyboard) configuration for the scyboard keyboard. It includes keymaps, macros, and custom behaviors tailored for an ergonomic and efficient typing experience.
 
-## ⌨️ scyboard Repository
+## 📝 Summary
 
-Find the Scyboard hardware files and details here: [scyboard Repository](https://github.com/Scybin/scyboard)
+- Custom keymap for the scyboard keyboard
+- Includes macros (e.g., paste macro) and tap dance behaviors
+- Multiple layers: base, lower, and raise
+- Bluetooth profile switching
+- Idle and sleep settings
+- External power detection
 
 ## 🗺️ Keymap Editor Compatibility
 
@@ -14,14 +19,9 @@ This configuration is compatible with the [ZMK Keymap Editor](https://nickcoutso
 
 For detailed information on ZMK firmware, refer to the official documentation: [ZMK Docs](https://zmk.dev/docs/)
 
-## 📝 Summary
+## ⌨️ scyboard Repository
 
-- Custom keymap for the scyboard keyboard
-- Includes macros (e.g., paste macro) and tap dance behaviors
-- Multiple layers: base, lower, and raise
-- Bluetooth profile switching
-- Idle and sleep settings
-- External power detection
+Find the Scyboard hardware files and details here: [scyboard Repository](https://github.com/Scybin/scyboard)
 
 ---
 
