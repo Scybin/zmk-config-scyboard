@@ -5,16 +5,6 @@ config ZMK_KEYBOARD_NAME
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
-
-config LOG
-	default y
-
-config LOG_MODE_DEFERRED
-	default y
-
-config LOG_BACKEND_USB
-	default y
-
 endif
 
 if SHIELD_SCYBOARD_LEFT || SHIELD_SCYBOARD_RIGHT
