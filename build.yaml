@@ -24,6 +24,3 @@ include:
     snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: scyboard_right
-  - board: nice_nano_v2
-    shield: tester_pro_micro
-    snippet: zmk-usb-logging
