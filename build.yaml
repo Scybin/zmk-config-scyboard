@@ -4,5 +4,6 @@ include:
     snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: scyboard_right
+    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: settings_reset
