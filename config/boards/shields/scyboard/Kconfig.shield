@@ -1,5 +1,5 @@
-config shield_scyboard_left
+config SHIELD_SCYBOARD_lLEFT
 		def_bool $(shields_list_contains,scyboard_left)
 
-config shield_scyboard_right
+config SHIELD_SCYBOARD_RIGHT
 		def_bool $(shields_list_contains,scyboard_right)
