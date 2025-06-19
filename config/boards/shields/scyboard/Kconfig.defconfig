@@ -7,6 +7,12 @@ config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 endif
 
+if SHIELD_SCYBOARD_RIGHT
+
+config ZMK_SPLIT_ROLE_PERIPHERAL
+    default y
+endif
+
 if SHIELD_SCYBOARD_LEFT || SHIELD_SCYBOARD_RIGHT
 
 config ZMK_SPLIT
