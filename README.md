@@ -9,7 +9,7 @@ This repository contains the ZMK (Zephyr Mechanical Keyboard) configuration for 
 - Multiple layers: base, lower, and raise
 - Bluetooth profile switching
 - Idle and sleep settings
-- External power detection
+- Pointer (mouse) settings
 
 ## 🗺️ Keymap Editor Compatibility
 
