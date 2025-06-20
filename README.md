@@ -10,6 +10,7 @@ This repository contains the ZMK (Zephyr Mechanical Keyboard) configuration for 
 - Bluetooth profile switching
 - Idle and sleep settings
 - Pointer (mouse) settings
+- Reset uf2 included in firmware output to reset nice!nano V2 controllers
 
 ## 🗺️ Keymap Editor Compatibility
 
