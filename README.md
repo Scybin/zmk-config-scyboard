@@ -1,8 +1,8 @@
-# 🧑‍💻 ZMK Configuration for scyboard
+This is a private respository for developing custom keymaps for the scyboard keyboard. Intended for personal use and experimentation.
 
 This repository contains the ZMK (Zephyr Mechanical Keyboard) configuration for the scyboard keyboard. It includes keymaps, macros, and custom behaviors tailored for an ergonomic and efficient typing experience.
 
-## 📝 Summary
+## ?? Summary
 
 - Custom keymap for the scyboard keyboard
 - Includes macros (e.g., paste macro) and tap dance behaviors
@@ -11,15 +11,15 @@ This repository contains the ZMK (Zephyr Mechanical Keyboard) configuration for 
 - Idle and sleep settings
 - Pointer (mouse) settings
 
-## 🗺️ Keymap Editor Compatibility
+## ??? Keymap Editor Compatibility
 
 This configuration is compatible with the [ZMK Keymap Editor](https://nickcoutsos.github.io/keymap-editor/), allowing you to visualize and modify your keymap easily.
 
-## 📖 ZMK Firmware Documentation
+## ?? ZMK Firmware Documentation
 
 For detailed information on ZMK firmware, refer to the official documentation: [ZMK Docs](https://zmk.dev/docs/)
 
-## ⌨️ scyboard Repository
+## ?? scyboard Repository
 
 Find the Scyboard hardware files and details here: [scyboard Repository](https://github.com/Scybin/scyboard)
 
