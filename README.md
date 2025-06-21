@@ -1,24 +1,28 @@
-﻿# 🧑‍💻 ZMK Configuration for scyboard
+﻿# 🧑‍💻 ZMK Configuration for the scyboard keyboard
 
-This repository contains the ZMK (Zephyr Mechanical Keyboard) configuration for the scyboard keyboard. It includes keymaps, macros, and custom behaviors tailored for an ergonomic and efficient typing experience.
+This repository contains the ZMK configuration for the scyboard keyboard. This firmware is tailored for an ergonomic and efficient typing experience.
 
 ## 📝 Summary
 
-- Custom keymap for the scyboard keyboard
-- Includes macros (e.g., paste macro) and tap dance behaviors
-- Multiple layers: base, lower, and raise
-- Bluetooth profile switching
+Below is a summary of the key features and configurations included in this ZMK module:
+
+- Custom keymap
+- Multiple layers
+- Macros
+- Tap dance behaviors
+- Wired and wireless (Bluetooth) support
 - Idle and sleep settings
-- Pointer (mouse) settings
-- Reset uf2 included in firmware output to reset nice!nano V2 controllers
+- External power management
+- Pointer settings
+- A reset uf2 file is included in the build which can be used to reset nice!nano V2 controllers
 
 ## 🗺️ Keymap Editor Compatibility
 
-This configuration is compatible with the [ZMK Keymap Editor](https://nickcoutsos.github.io/keymap-editor/), allowing you to visualize and modify your keymap easily.
+This configuration is compatible with the [ZMK Keymap Editor](https://nickcoutsos.github.io/keymap-editor/). This is used to visualize and easily modify the keymap.
 
 ## 📖 ZMK Firmware Documentation
 
-For detailed information on ZMK firmware, refer to the official documentation: [ZMK Docs](https://zmk.dev/docs/)
+For detailed information on ZMK (Zephyr Mechanical Keyboard) firmware, refer to the official documentation: [ZMK Docs](https://zmk.dev/docs/)
 
 ## ⌨️ scyboard Repository
 
