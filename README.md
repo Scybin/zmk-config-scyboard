@@ -30,6 +30,10 @@ For detailed information on ZMK (Zephyr Mechanical Keyboard) firmware, refer to 
 
 The scyboard hardware files and details can be found here: [scyboard](https://github.com/Scybin/scyboard)
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ---
 
 Feel free to fork and adapt this configuration for your own use.
